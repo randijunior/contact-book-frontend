@@ -1,0 +1,32 @@
+.contact-icon-container {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-title {
+    color: #929090;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.login-form-container {
+    color:#929090;
+}
+.login-form-container {
+    padding: 5em;
+}
+
+input {
+    color: #929090;
+}
+
+.input-container {
+    margin: 15px 0px 0px 0px !important;
+    padding-top:15px;
+    text-align: center;
+}
+.input-container > input {
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.form_create_container {
+    border-bottom: 1px solid lightslategray;
+    width: 100%;
+    display: inline-block;
+}
+#create_contact_container{
+    padding: 40px 3.6rem 40px 3.6rem;
+    position: relative;
+}
+#p_title {
+    font-size: 21px;
+}
+
+input {
+    border: 2px solid gray;
+    width: inherit;
+    padding: 3px;
+    padding-left: 8px;
+    color: black !important;
+}
+label{
+    width: inherit;
+    margin-bottom: 1.7rem;
+}
+
+#btn_save, #btn_cancel {
+     /* 16px x 16px */
+     margin-top: 1rem;
+     border: 1px solid gray;
+}
+
+#btn_save {
+    position: absolute;
+    left: 0;
+}
+
+#btn_cancel {
+    position: absolute;
+    right: 0;
+}
+
+#buttom_container button{
+    width: 95%;
+}

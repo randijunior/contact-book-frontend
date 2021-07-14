@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+#main {
+  height: 100vh;
+}
+
+#main > .row {
+  height: 100%;
+}
+
+.contact-data {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  max-height: 100%;
+}
+
+.bd-left {
+  border-left: 1px solid gray;
+}

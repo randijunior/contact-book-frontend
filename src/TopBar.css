@@ -1,0 +1,78 @@
+#topbar-container {
+  padding: 5px;
+}
+.left-230{
+  position: absolute;
+  left: 258px;
+}
+
+.top-3 {
+  top: 4px;
+}
+
+.contact-name {
+  display: inline-block;
+}
+
+.top-16 {
+    top:16px;
+}
+
+.mleft-10 {
+    margin-left: 10px;
+}
+.positona{
+  position:absolute;
+}
+.contact-founded {
+  max-height: 60px;
+}
+.contact-founded:hover {
+    background-color: #acacac;
+}
+.md-dark { color: rgba(0, 0, 0, 0.4); }
+
+.img_topbar_container {
+  padding: 2px 5px 2px 5px;
+  margin-right: 15px;
+  max-width: 41px;
+  border: 0px;
+}
+.img_topbar_container:hover{
+  outline: 1px solid;
+}
+input:focus {
+  outline: none;
+}
+
+#setting_container {
+  text-align: end;
+}
+#input-search {
+  width: 18em;
+  border: 2px solid rgba(0, 0, 0, 0.52);
+  padding: 2px;
+  outline: none;
+}
+
+#form-search {
+  position: relative;
+}
+.svg-image {
+  width: 25px;
+}
+#circle {
+  background: #696565;
+  color: #fff;
+  border: 1px solid #696565;
+  display: inline-block;
+  width: 30px  !important;
+  height: 30px  !important;
+  border-radius: 50%;
+  text-align: center;
+  padding: 3px;
+}
+
+#list-contact {
+  width: 18em;position: absolute;z-index: 1;/*display: none*/;cursor:pointer;
+}

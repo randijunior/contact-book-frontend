@@ -1,0 +1,72 @@
+#main-tb {
+  max-height: 90%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.data-tb {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    font-size: 13px;
+    border-collapse: collapse;
+}
+
+.data-tb td,th {
+  padding: .75rem;
+  border: 0;
+  vertical-align: top;
+  cursor: default;
+}
+
+.hover_tb:hover{
+  background-color: #D6D6D6;
+}
+
+.active {
+  background-color: #D6D6D6;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .width-50 {
+    width: 50%;
+  }
+
+  .contact_circle_letter {
+    background: #696565;
+color: #fff;
+border: 1px solid #696565;
+display: inline-block;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+text-align: center;
+padding: 3px;
+  }
+  .contact_name {
+    display: inline-block;
+  }
+  .contact_name.top-16 {
+      top:16px;
+  }
+
+  .contact_name.mleft-10 {
+      margin-left: 10px;
+  }
